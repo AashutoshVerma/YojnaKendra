@@ -1,0 +1,232 @@
+.aboutBox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 0 1rem; */
+    padding-left: 3rem;
+    /* z-index: -555; */
+}
+
+.about#blur2.active2 {
+    filter: blur(10px);
+}
+
+.aboutBox h1 {
+    margin-bottom: 1.2rem;
+    font-size: 5rem;
+    display: flex;
+
+}
+
+.aboutBox h1 strong {
+    background-color: rgb(185, 121, 0);
+    background-image: linear-gradient(45deg, rgb(255, 166, 0), rgb(231, 158, 22));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.aboutBox h2 {
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+
+}
+
+.aboutBox p {
+    margin-bottom: 1.2rem;
+    font-size: 1.9rem;
+
+}
+
+.aboutBox button {
+    padding: 1.5rem 2rem;
+    margin-right: 1rem;
+    align-items: flex-start;
+    width: 15rem;
+    border: none;
+    border-radius: 1rem;
+    /* background-color: rgb(40, 40, 138); */
+    background-color: orange;
+    color: black;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+.aboutBox button:hover {
+    opacity: 0.8;
+    background-color: rgb(197, 141, 38);
+}
+
+.ruContainer {
+    height: 100%;
+    width: 100%;
+    /* display: grid;
+    grid-template-rows: 10% 90%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .leftContainer {
+        height: 70vh;
+    }
+}
+
+/* .center {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 5rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    margin-bottom: 2rem;
+    height: 10%;
+    width: 100%;
+}
+
+.box2 {
+    height: 100%;
+    width: 100%;
+} */
+
+.box1 {
+    height: 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    margin-bottom: 0.1rem;
+    background-color: orange;
+}
+
+.box1Heading {
+    /* padding: 1rem; */
+    font-size: 1rem;
+    color: rgb(53, 53, 53);
+}
+
+.box2 {
+    height: 65%;
+    width: 80%;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    overflow: scroll;
+    padding: 3rem 3rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .aboutBox {
+        align-items: center;
+    }
+
+    .aboutBox h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .aboutBox h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .aboutBox p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .aboutBox button {
+        font-size: 1rem;
+        width: 13rem;
+    }
+
+    .aboutBox {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #explore {
+        width: 19rem;
+    }
+
+    .box1 {
+        height: 20%;
+    }
+
+    .box2 {
+        height: 40vh;
+        padding: 2rem 0;
+    }
+
+    .updateContainer {
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    html {
+        font-size: 6px;
+    }
+
+    .aboutBox p {
+        padding: 0 3rem;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    .aboutBox {
+        padding: 0 4rem;
+    }
+
+
+}
+
+.updates {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.updateList {
+    height: 100%;
+    width: 100%;
+
+}
+
+.updateList li {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .updateList li {
+        text-align: center;
+    }
+}

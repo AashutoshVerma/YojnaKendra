@@ -1,0 +1,19 @@
+.adminPage{
+    height: 100vh;
+}
+
+.adminPage h1{
+    padding: 5px;
+    font-size: 2rem;
+    
+}
+
+.scheadit{
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid orange;
+}
+.bin{
+    font-size: 30px;
+}

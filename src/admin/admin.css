@@ -1,0 +1,71 @@
+.admin{
+    height: 100vh;
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.admin-header{
+    height: 10vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+}
+
+.admin-header h1{
+    font-size: 3rem;
+
+}
+
+.admin-body{
+    margin-top: 2rem;
+    display: flex;
+    margin: 2rem auto 0 auto;
+    width: 50%;
+    border: 2px solid salmon;
+    height: 70%;
+    background: rgba(0,0,0,0.2);
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .container {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+    }
+  } 
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.box h3{
+    font-size: 3rem;
+}
+
+.box input{
+    padding : 1rem 3rem;
+    border-radius: 5px;
+    border : none;
+    outline: none ;
+    background-color: orange;
+}
+
+.field{
+    margin-top: 2rem;
+}
+
+.box button{
+    margin-top: 3rem;
+    background-color: orange;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    border : none;
+    font-size: 2rem;
+}

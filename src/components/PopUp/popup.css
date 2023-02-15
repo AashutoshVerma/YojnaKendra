@@ -1,0 +1,180 @@
+.popup {
+  position: fixed;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 300px;
+  z-index: 1111;
+  place-items: center;
+  grid-template-rows: 20% 60% 20%;
+  border-radius: 10px;
+  display: none;
+  backdrop-filter: blur(10px);
+
+}
+
+.popupHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid grey;
+  height: 100%;
+  width: 100%;
+  font-family: var(--heading);
+  font-size: 3rem;
+
+}
+
+.column {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  /* padding: 0 1rem; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid grey;
+
+}
+
+
+.card {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-top: none;
+  font-family: var(--subHeading);
+  /* color: grey; */
+}
+
+.card h1 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+
+}
+
+.gender {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+
+}
+
+
+#card1 {
+  border-left: none;
+  border-right: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+
+.mini {
+  border-left: none;
+  border-right: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+
+
+
+
+
+
+
+
+/* .title {
+    margin: auto 0;
+  }
+  
+  .bbb {
+    margin: auto 0;
+  
+  } */
+
+/* #male {
+    margin-bottom: 1rem;
+  } */
+
+.final_submit {
+  padding: 8px 10px;
+  font-family: var(--text);
+  border: none;
+  border-radius: 8px;
+  font-size: 2rem;
+  background-color: orange;
+}
+
+#close {
+  display: block;
+  position: absolute;
+  margin: 0 0 20px auto;
+  border: none;
+  top: 5px;
+  right: 15px;
+  outline: none;
+  background-color: transparent;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.leftCard1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-right: 2px solid grey;
+  font-family: var(--subHeading);
+
+
+}
+
+.rightCard1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-family: var(--subHeading);
+
+  /* border-right: 1px solid black; */
+
+}
+
+.column h1 {
+  font-weight: 500;
+  margin-bottom: 1rem;
+  /* border-bottom: 2px dashed grey; */
+}
+
+
+/* 
+  .border {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-right: 1px solid black;
+  } */
+
+#leftborder {
+  border-left: 2px solid grey;
+}
+
+.column h1 {
+  font-size: 2.5rem;
+}
+
+label {
+  font-size: 2rem;
+}

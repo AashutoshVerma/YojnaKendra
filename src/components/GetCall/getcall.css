@@ -1,0 +1,13 @@
+#getCall {
+    position: fixed;
+    bottom: 100px;
+    right: 2%;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 1.2rem;
+}
+
+#getCall i {
+    font-size: 4rem;
+    color: black;
+}
